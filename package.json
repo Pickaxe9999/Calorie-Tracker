@@ -2,9 +2,10 @@
   "name": "calorie-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/Pickaxe9999/Calorie-Tracker#readme",
   "dependencies": {
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.9.2"
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.29.0"
   }
 }
